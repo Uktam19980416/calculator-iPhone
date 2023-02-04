@@ -9,3 +9,5 @@ Here are 3 technologies while implementing this landing page:
  - HTML5
  - CSS3
  - Javascript
+ 
+ # Please tap home button to home screen and double click to back calculator
