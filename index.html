@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./pngegg.png" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="header__title">Calculator</h1>
+    </header>
+    <main class="main">
+      <div class="frame">
+        <section class="section__top">
+          <div class="round"></div>
+          <div class="line__round">
+            <div class="camera"></div>
+            <div class="line"></div>
+          </div>
+        </section>
+        <section class="section__middle">
+          <div class="wrapper">
+            <div class="result">
+              <span class="result__text">0</span>
+            </div>
+            <div class="buttons">
+              <button class="clear" value="clear">AC</button>
+              <button class="pos__or__neg" value="+/-">+/-</button>
+              <button class="percent" value="%">%</button>
+              <button class="divide" value="/">÷</button>
+
+              <button class="seven" value="7">7</button>
+              <button class="eight" value="8">8</button>
+              <button class="nine" value="9">9</button>
+              <button class="multiply" value="*">x</button>
+
+              <button class="four" value="4">4</button>
+              <button class="five" value="5">5</button>
+              <button class="six" value="6">6</button>
+              <button class="subtract" value="-">-</button>
+
+              <button class="one" value="1">1</button>
+              <button class="two" value="2">2</button>
+              <button class="three" value="3">3</button>
+              <button class="add" value="+">+</button>
+
+              <button class="zero" value="0"><span class="zero__left">0</span></button>
+              <button class="dot" value=".">.</button>
+              <button class="equal" value="=">=</button>
+            </div>
+          </div>
+        </section>
+        <div class="section__floor">
+          <div class="menu__button"></div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
